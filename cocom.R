@@ -1,4 +1,4 @@
-#Script for comparising two correlation coefficient by bootstrap in R
+#Script for comparing two correlation coefficient by bootstrap in R
 # data preparing 
 met = "pearson" # declare your correlation method
 fvectorX <- "first vector of variable X"
