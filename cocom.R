@@ -52,8 +52,8 @@ mean( Boot.observed >= test.observed)
 plot(density(Boot.observed), 
      xlab=expression( group("|", bar(Yc) - bar(Ym), "|") ) , 
      main="Bootstrap Test Stats", las=1)
-abline(v=test.stat1, col="blue", lty="dotted")
-text(0.6, 2 , "p-value", col="blue", cex=1)
+abline(v=test.observed, col="blue", lty="dotted")
+text(0.7, 2 , "p-value", col="blue", cex=1)
 
 
 
